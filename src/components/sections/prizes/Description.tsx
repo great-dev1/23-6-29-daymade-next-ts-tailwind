@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "@/components/elements/Button";
 
 type Questions = {
@@ -44,9 +45,9 @@ export default function Description() {
                     have never been higher.
                 </p>
 
-                <div className="text-center">
+                <Link href="/enter" className="block w-max mx-auto">
                     <Button className="w-[180px]">Enter now</Button>
-                </div>
+                </Link>
             </div>
 
             <ul>

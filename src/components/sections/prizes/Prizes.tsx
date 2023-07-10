@@ -101,7 +101,9 @@ export default function Prizes() {
                     <span className="font-extrabold">YOU choose the dates</span>
                 </p>
 
-                <Button className="w-[180px] mb-12">Enter now</Button>
+                <Link href="/enter">
+                    <Button className="w-[180px] mb-12">Enter now</Button>
+                </Link>
 
                 <div className="max-w-[300px] mx-auto flex items-center justify-between px-6 py-4.5 border-2 border-lightgray rounded-full bg-[#F6F6F6]">
                     <span className="font-extrabold">
@@ -186,7 +188,10 @@ export default function Prizes() {
             </div>
 
             <div className="px-5 py-6 text-center">
-                <Button className="w-[180px] mb-6">Enter now</Button>
+                <Link href="/enter">
+                    <Button className="w-[180px] mb-6">Enter now</Button>
+                </Link>
+
                 <p className="text-xs font-semibold italic">
                     All listed travel itineraries (including flights, hotels,
                     activities, and other expenditures) are subject to change

@@ -102,7 +102,7 @@ export default function Winners() {
                     </Swiper>
                 </div>
 
-                <Link href="#">
+                <Link href="/enter">
                     <Button className="w-[220px]">Enter now</Button>
                 </Link>
             </div>

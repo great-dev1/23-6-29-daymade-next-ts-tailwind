@@ -15,7 +15,10 @@ export default function Hero() {
                     <br /> Choose your prize.
                 </p>
 
-                <Link href="#" className="w-3/5 max-w-[250px] mb-6 md:mb-9.5">
+                <Link
+                    href="/enter"
+                    className="w-3/5 max-w-[250px] mb-6 md:mb-9.5"
+                >
                     <Button className="w-full md:text-sm">Enter now</Button>
                 </Link>
 

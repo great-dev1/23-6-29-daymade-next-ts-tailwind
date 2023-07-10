@@ -202,11 +202,11 @@ export default function Prizes() {
                             </h3>
 
                             <p className="paragraph">
-                                You'll plant a tree with{" "}
+                                You&apos;ll plant a tree with{" "}
                                 <a href="#" className="font-bold underline">
                                     Eden Reforestation Projects
                                 </a>{" "}
-                                every week you're subscribed.
+                                every week you&apos;re subscribed.
                             </p>
                         </div>
                     </div>

@@ -130,7 +130,7 @@ export default function Header() {
                         />
                     </Link>
 
-                    <Link href="#">
+                    <Link href="/enter">
                         <Button className={isButtonShow ? "" : "hidden"}>
                             Enter now
                         </Button>

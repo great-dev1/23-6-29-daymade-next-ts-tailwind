@@ -377,7 +377,7 @@ export default function Prizes() {
                             >
                                 {prize.items.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <Link href="#">
+                                        <Link href="/prizes">
                                             <div className="relative h-[250px] rounded-2xl overflow-hidden bg-black">
                                                 <Image
                                                     className="w-full h-full object-cover opacity-80"
@@ -450,7 +450,7 @@ export default function Prizes() {
 
                 <p className="mb-6">See a prize you like?</p>
 
-                <Link href="#">
+                <Link href="/enter">
                     <Button className="w-full max-w-[300px]">Enter now</Button>
                 </Link>
             </div>

@@ -17,7 +17,7 @@ type Plans = {
 
 const plans: Plans = [
     {
-        url: "#",
+        url: "/enter",
         title: "Premium",
         description: "Best chances & prize selection",
         buttonText: "Play For £3",
@@ -25,14 +25,14 @@ const plans: Plans = [
         isDiscount: true,
     },
     {
-        url: "#",
+        url: "/enter",
         title: "Lite",
         description: "Great chances & prize selection",
         buttonText: "Play For £1.50",
         underlineColor: "orange",
     },
     {
-        url: "#",
+        url: "/enter",
         title: "Postal",
         description: "No purchase necessary",
         buttonText: "Enter by post",

@@ -62,7 +62,7 @@ export default function CarouselWithText() {
                         Tuesday & Friday at 5pm.
                     </p>
 
-                    <Link href="#" className="w-3/5 max-w-[250px] mt-3">
+                    <Link href="/enter" className="w-3/5 max-w-[250px] mt-3">
                         <Button className="w-full">Enter now</Button>
                     </Link>
                 </div>
