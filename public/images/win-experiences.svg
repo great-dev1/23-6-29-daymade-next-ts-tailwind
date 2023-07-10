@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="807px" height="161px" viewBox="0 0 807 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>WINEXPERIENCES</title>
+    <defs>
+        <text id="text-1" font-family="Montserrat-ExtraBoldItalic, Montserrat" font-size="49" font-style="italic" font-weight="700" line-spacing="35" fill="#FFFFFF">
+            <tspan x="394.431" y="28.688">Win</tspan>
+        </text>
+        <filter x="-0.7%" y="-28.6%" width="101.4%" height="154.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-1.5%" y="-15.2%" width="103.0%" height="130.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WINEXPERIENCES" transform="translate(-88.000000, 5.000000)" fill="#FFFFFF">
+            <g id="Win" fill-opacity="1">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <g id="EXPERIENCES" filter="url(#filter-3)" transform="translate(92.000000, 71.000000)" fill-rule="nonzero">
+                <polygon id="Path" points="25.056 58.104 25.056 48.168 57.024 48.168 57.024 29.808 25.056 29.808 25.056 20.952 61.452 20.952 61.452 1.728 0 1.728 0 77.328 62.856 77.328 62.856 58.104"></polygon>
+                <polygon id="Path" points="149.148 77.328 121.284 38.232 147.528 1.728 120.096 1.728 107.568 20.736 94.716 1.728 66.096 1.728 92.448 39.204 65.124 77.328 94.176 77.328 106.92 57.132 119.988 77.328"></polygon>
+                <path d="M188.676,1.728 L152.28,1.728 L152.28,77.328 L177.768,77.328 L177.768,58.752 L188.676,58.752 C209.736,58.752 223.128,47.736 223.128,30.24 C223.128,12.744 209.736,1.728 188.676,1.728 Z M187.056,39.096 L177.768,39.096 L177.768,21.384 L187.056,21.384 C194.076,21.384 197.424,24.732 197.424,30.24 C197.424,35.748 194.076,39.096 187.056,39.096 Z" id="Shape"></path>
+                <polygon id="Path" points="256.5 58.104 256.5 48.168 288.468 48.168 288.468 29.808 256.5 29.808 256.5 20.952 292.896 20.952 292.896 1.728 231.444 1.728 231.444 77.328 294.3 77.328 294.3 58.104"></polygon>
+                <path d="M349.38,77.328 L376.596,77.328 L360.72,54 C369.792,49.356 374.976,41.148 374.976,30.24 C374.976,12.744 361.584,1.728 340.524,1.728 L304.128,1.728 L304.128,77.328 L329.616,77.328 L329.616,58.32 L336.528,58.32 L349.38,77.328 Z M349.272,30.24 C349.272,35.748 345.924,39.096 338.904,39.096 L329.616,39.096 L329.616,21.384 L338.904,21.384 C345.924,21.384 349.272,24.732 349.272,30.24 Z" id="Shape"></path>
+                <polygon id="Path" points="384.588 77.328 410.076 77.328 410.076 1.728 384.588 1.728"></polygon>
+                <polygon id="Path" points="447.444 58.104 447.444 48.168 479.412 48.168 479.412 29.808 447.444 29.808 447.444 20.952 483.84 20.952 483.84 1.728 422.388 1.728 422.388 77.328 485.244 77.328 485.244 58.104"></polygon>
+                <polygon id="Path" points="544.752 1.728 544.752 36.072 516.024 1.728 495.072 1.728 495.072 77.328 519.912 77.328 519.912 42.984 548.64 77.328 569.592 77.328 569.592 1.728"></polygon>
+                <path d="M621,79.056 C635.796,79.056 647.46,73.656 654.912,63.936 L638.82,49.572 C634.392,55.188 629.1,58.428 622.296,58.428 C611.712,58.428 604.584,51.084 604.584,39.528 C604.584,27.972 611.712,20.628 622.296,20.628 C629.1,20.628 634.392,23.868 638.82,29.484 L654.912,15.12 C647.46,5.4 635.796,0 621,0 C596.7,0 578.88,16.308 578.88,39.528 C578.88,62.748 596.7,79.056 621,79.056 Z" id="Path"></path>
+                <polygon id="Path" points="687.312 58.104 687.312 48.168 719.28 48.168 719.28 29.808 687.312 29.808 687.312 20.952 723.708 20.952 723.708 1.728 662.256 1.728 662.256 77.328 725.112 77.328 725.112 58.104"></polygon>
+                <path d="M763.128,79.056 C786.564,79.056 798.336,67.392 798.336,53.568 C798.336,25.704 756.54,33.264 756.54,24.192 C756.54,21.6 758.916,19.44 766.368,19.44 C772.956,19.44 779.976,21.276 787.428,25.056 L795.096,6.588 C787.212,2.16 776.736,0 766.584,0 C743.148,0 731.376,11.448 731.376,25.488 C731.376,53.676 773.172,46.008 773.172,55.512 C773.172,58.104 770.58,59.616 763.344,59.616 C755.028,59.616 745.524,56.916 738.396,52.704 L730.188,71.28 C737.748,75.924 750.492,79.056 763.128,79.056 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
